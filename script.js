@@ -6,5 +6,6 @@ fetch("events.json")
       const item = document.createElement("li");
       item.textContent = `${event.name} — starred ${event.starred}`;
       list.appendChild(item);
+      // updated the comments to test
     });
   });
